@@ -9,40 +9,42 @@
 </head>
 <body>
     <h2>Problema 1</h2>
-    <forms action="formulario" method="post" action="">
+    <form name="formulario" method="post" action="">
 
     <label for="Formulario para el calculo de inversion de capital 
-    al 3.7% anual"></label>
+    al 2% anual"></label>
     <br>
     <table>
         <tr>
             <td>Introduce la cantidad que desea invertir</td>
             <td>
-                <input type="text" name="cantidad" onkeypress="return validar(this)">
+                <input type="text" name="cantidad" onkeypress="return validarn(event)">
             </td>
         </tr>
 
         <tr>
             <td>Introduce el nuemero de meses en los que desea invertir </td>
             <td>
-                <input type="text" name="meses" onkeypress="return validar(this)">
+                <input type="text" name="meses" onkeypress="return validarn(event)">
             </td>
         </tr>
 
         <tr>
             <td></td>
-            <td><input type="button" value="Calcular Interes"name="enviar" onclick=""></td>
+            <td><input type="button" value="Calcular interes"
+                name="enviar" onclick="interes()"></td>
         </tr>
 
         <tr>
             <td>Su saldo total con el interes al 2% anual es de:</td>
-            <td><input type="text" name="sueldo1" id="cantidad1"
+            <td><input type="text" name="sueldoI"
                 readonly="readonly" class="input_text"></td>
         </tr>
         <tr>
             <td></td>
-            <td><input type="button" value="Borrar Datos"
-                name="borrar" onclick=""></td>
+            <td>
+                <input type="button" value="Borrar datos"
+                    name="borrar" onclick="borrard()">
         </tr>
 
     </table>
