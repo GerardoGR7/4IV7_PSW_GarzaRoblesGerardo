@@ -27,7 +27,7 @@ h2, h3{
 }
 
 .problema-container{
-    background-color: rgb(29, 55, 170);
+    background-color: rgb(41, 85, 206);
     padding: 1rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 
                 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -59,7 +59,7 @@ input.problema-input{
 
 button.problema-button{
     border: none;
-    background-color: rgb(75, 0, 250);
+    background-color: rgb(26, 43, 196);
     color: rgb(31, 6, 43);
     text-transform: uppercase;
     padding: 0.8rem;
@@ -80,7 +80,7 @@ button.problema-button{
 
 .table.problema-table{
     margin: 1rem;
-    border: 1px solid rgb(red, green, blue);
+    border: 1px solid rgb(rgb(126, 32, 32), rgb(103rgb(51, 51, 146)2, 103), blue);
 }
 
 td{
