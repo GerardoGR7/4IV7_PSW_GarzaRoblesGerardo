@@ -1,6 +1,26 @@
 //problema 1
 
+function problema1(){
 
+    var p1_input = document.querySelector('#p1-input').value;
+
+    var p1_palabras = p1_input.split(' ').reverse();
+
+    var p1_espacio=' ';
+
+    p1_palabras.forEach(function(palabra, i){
+
+        if( i != 0 || i != p1_palabras.length ){
+            p1_espacio += ' ';
+            p1_espacio += palabra;
+        }
+        
+    })
+
+    document.querySelector('#p1-output').textContent=p1_espacio;
+
+}
+  
 
 //problema 2
 
